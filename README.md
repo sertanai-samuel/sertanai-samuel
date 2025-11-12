@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=a4c95a&height=120&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=314e37&height=120&section=header"/>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=314e37&size=35&center=true&vCenter=true&width=1000&lines=Olá,+eu+sou+o+Samuel+Santos!;CPO+(Chief+Product+Officer)+na+SertanAI;Geoprocessamento;Ciência+de+Dados+Espaciais;Python;Desenvolvimento+Full+Stack;Construindo+a+revolução+cognitiva+no+Agro!&duration=3000&pause=500)](https://git.io/typing-svg)
 
