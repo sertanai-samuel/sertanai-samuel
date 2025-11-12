@@ -20,6 +20,10 @@ Aqui está no que estou trabalhando ativamente:
 * 🌊 **Data Flow:** Desenhando o pipeline de dados, desde a ingestão de imagens de satélite/drone até a entrega do diagnóstico.
 * 🎨 **UX/UI:** Definindo a jornada do usuário e o design da plataforma.
 
+### [Conheça minha Missão e o Roadmap de Produto ➔](https://sertanai-samuel.github.io/sertanai-samuel/)
+
+---
+
 ## &nbsp;Links Úteis (Hub da Equipe)
 
 Este é o nosso "hub" central para recursos de produto e desenvolvimento:
