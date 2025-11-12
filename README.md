@@ -36,9 +36,12 @@ Este é o nosso "hub" central para recursos de produto e desenvolvimento:
 
 ## &nbsp;Contato (SertanAI)
 
-* 📧 **E-mail:** `samuel.santos@sertanai.com` * 💬 **Slack:** `@Samuel Santos` * <a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="vertical-align:middle;"/>
-  </a>
-  <a href="https://github.com/sertanai-samuel" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
-  </a>
+<a href="mailto:samuel.santos@sertanai.com" target="_blank">
+  <img src="https://skillicons.dev/icons?i=gmail" alt="E-mail" style="vertical-align:middle;"/>
+</a>
+<a href="https://www.linkedin.com/in/samuelsantos-amb/" target="_blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="vertical-align:middle;"/>
+</a>
+<a href="https://github.com/sertanai-samuel" target="_blank">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="vertical-align:middle;"/>
+</a>
