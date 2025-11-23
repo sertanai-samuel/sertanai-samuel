@@ -7,7 +7,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-        /* === COPIADO EXATAMENTE DO SEU PITCH DECK === */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -65,12 +64,12 @@
         h3 { font-size: 1.8rem; }
         p { font-size: 1.2rem; }
         ul { list-style: none; padding: 0; }
-        
+
         strong {
             font-weight: 600;
-            color: #a4c95a; /* Cor de destaque da SertanAI */
+            color: #a4c95a;
         }
-        
+
         a {
             color: #a4c95a;
             text-decoration: none;
@@ -80,9 +79,9 @@
             text-decoration: underline;
         }
 
-        /* Seção Home (Adaptada para Perfil) */
+        /* Seção Home */
         #home {
-            background-color: #2e4a30; /* Verde escuro do pitch */
+            background-color: #2e4a30;
         }
         .profile-pic {
             width: 180px;
@@ -102,7 +101,7 @@
             color: #f0f0f0;
         }
 
-        /* Seção Missão (Fundo escuro) */
+        /* Seção Missão */
         #missao {
             background-color: #1a1a2e;
         }
@@ -113,15 +112,12 @@
             max-width: 800px;
         }
 
-        /* Seção Foco (Fundo claro, usando cards) */
-        #foco { 
-            background-color: #f4f4f4; 
-            color: #333; 
+        /* Seção Foco */
+        #foco {
+            background-color: #f4f4f4;
+            color: #333;
         }
-        
-        /* * *** CORREÇÃO DO CARD AQUI ***
-         * Aumentado o minmax de 250px para 300px
-         */
+
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -138,18 +134,17 @@
         }
         .card:hover { transform: translateY(-10px); }
         .card h3 { color: #a4c95a; }
-        .card p { 
-            font-size: 1rem; 
-            /* Adicionada esta linha para garantir a quebra de texto */
-            overflow-wrap: break-word; 
+        .card p {
+            font-size: 1rem;
+            overflow-wrap: break-word;
         }
 
-        /* Seção Roadmap (Timeline) */
+        /* Seção Roadmap */
         #roadmap {
             background-color: #fff;
             color: #333;
         }
-        /* === Colado da timeline do pitch deck === */
+
         .timeline {
             position: relative;
             max-width: 1000px;
@@ -239,19 +234,178 @@
                 right: auto;
             }
         }
-        /* === Fim do CSS Colado === */
-        
+
+        /* Seção Notícias */
+        #noticias {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .news-intro {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.1rem;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .news-card {
+            position: relative;
+            background: #ffffff;
+            padding: 1.75rem 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+            text-align: left;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.7rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .badge-new {
+            background: #a4c95a18;
+            color: #567a1f;
+            border: 1px solid #a4c95a66;
+        }
+
+        .news-title {
+            margin-top: 0.5rem;
+            margin-bottom: 0.4rem;
+            font-size: 1.25rem;
+            color: #1a1a2e;
+        }
+
+        .news-meta {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 0.8rem;
+        }
+
+        .news-summary {
+            font-size: 0.98rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .news-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .news-btn {
+            border-radius: 30px;
+            border: 1px solid #a4c95a;
+            background: #a4c95a;
+            color: #1a1a2e;
+            font-size: 0.9rem;
+            padding: 0.45rem 1.2rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+        }
+
+        .news-btn.secondary {
+            background: transparent;
+            color: #567a1f;
+        }
+
+        .news-btn:hover {
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            transform: translateY(-1px);
+        }
+
+        .news-details {
+            max-width: 960px;
+            margin: 0 auto;
+            text-align: left;
+            background: #ffffff;
+            padding: 2rem 2rem 2.5rem;
+            border-radius: 18px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+        }
+
+        .news-details h3 {
+            color: #1a1a2e;
+            margin-top: 0;
+        }
+
+        .news-tabs {
+            display: inline-flex;
+            border-radius: 999px;
+            background: #f2f4f0;
+            padding: 0.25rem;
+            margin: 0.5rem 0 1.5rem;
+        }
+
+        .news-tab {
+            border: none;
+            background: transparent;
+            padding: 0.55rem 1.2rem;
+            border-radius: 999px;
+            font-size: 0.88rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: #617070;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .news-tab.active {
+            background: #1a1a2e;
+            color: #f1f5f2;
+        }
+
+        .news-tab-panels {
+            margin-top: 1rem;
+        }
+
+        .news-tab-panel {
+            display: none;
+            font-size: 0.98rem;
+            line-height: 1.7;
+        }
+
+        .news-tab-panel.active {
+            display: block;
+        }
+
+        .news-tab-panel ul {
+            list-style: disc;
+            padding-left: 1.2rem;
+        }
+
+        .news-highlight {
+            background: #f7fbf2;
+            border-left: 4px solid #a4c95a;
+            padding: 0.75rem 1rem;
+            margin: 1rem 0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+        }
+
         /* Seção Contato */
-        #contato { 
-            background: #1a1a2e; 
-            color: white; 
-            min-height: 50vh; /* Mais curta */
+        #contato {
+            background: #1a1a2e;
+            color: white;
+            min-height: 50vh;
         }
         .contact-links {
             margin-top: 2rem;
             display: flex;
             gap: 2rem;
             justify-content: center;
+            flex-wrap: wrap;
         }
         .contact-links a {
             font-size: 1.2rem;
@@ -266,17 +420,94 @@
             text-decoration: none;
         }
 
-        footer { background-color: #111; color: #aaa; text-align: center; padding: 1rem; font-size: 0.9rem; }
+        footer {
+            background-color: #111;
+            color: #aaa;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* Popup de notícia */
+        .news-modal-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.55);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+        }
+        .news-modal-backdrop.open {
+            display: flex;
+        }
+        .news-modal {
+            background: #fdfdfd;
+            max-width: 520px;
+            width: 92%;
+            border-radius: 18px;
+            padding: 1.75rem 1.5rem 1.5rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.35);
+            position: relative;
+            text-align: left;
+        }
+        .news-modal h3 {
+            margin-top: 0;
+            color: #1a1a2e;
+        }
+        .news-modal p {
+            font-size: 0.98rem;
+        }
+        .news-modal .badge {
+            margin-bottom: 0.4rem;
+        }
+        .news-modal-actions {
+            margin-top: 1.2rem;
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.75rem;
+        }
+        .news-modal-close {
+            position: absolute;
+            top: 0.6rem;
+            right: 0.7rem;
+            background: none;
+            border: none;
+            color: #777;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+        .news-modal-close:hover {
+            color: #333;
+        }
     </style>
 </head>
 <body>
+
+    <!-- POPUP DE NOTÍCIA -->
+    <div class="news-modal-backdrop" id="news-modal">
+        <div class="news-modal">
+            <button class="news-modal-close" id="news-modal-close" aria-label="Fechar popup">&times;</button>
+            <span class="badge badge-new">Atualização</span>
+            <h3>NOVA ATUALIZAÇÃO NOS MÓDULOS DE MONITORAMENTO E FORMULÁRIO</h3>
+            <p>
+                A SertanAI lançou uma atualização que integra a nova experiência de desenho de talhões, 
+                seleção de cultivares e camadas de satélite no módulo de <strong>Monitoramento</strong> 
+                e no <strong>Formulário de Diagnóstico</strong>.
+            </p>
+            <div class="news-modal-actions">
+                <button class="news-btn secondary" id="news-modal-later">Ver depois</button>
+                <button class="news-btn" data-scroll-to="noticia-monitoramento">Ver detalhes</button>
+            </div>
+        </div>
+    </div>
 
     <section id="home" class="section">
         <div class="bg-overlay"></div>
         <div class="content">
             <img src="./pefil_sertan.png" alt="Foto de Perfil de Samuel Santos" class="profile-pic">
             <h1>Samuel Santos</h1>
-            <p class="subtitle">CPO | Ciência de Dados Espaciais & Geoprocessamento</p>
+            <p class="subtitle">CPO | Ciência de Dados Espaciais &amp; Geoprocessamento</p>
         </div>
     </section>
 
@@ -296,7 +527,7 @@
             <h2>Pilares de Foco</h2>
             <div class="grid-container">
                 <div class="card">
-                    <h3>Produto & Experiência (UX)</h3>
+                    <h3>Produto &amp; Experiência (UX)</h3>
                     <p>Definição da jornada do usuário, design da interface e garantia de que a plataforma resolve o problema real do consultor e do produtor no campo.</p>
                 </div>
                 <div class="card">
@@ -320,7 +551,7 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3 class="timeline-title">Fase 1: MVP & Validação</h3>
+                        <h3 class="timeline-title">Fase 1: MVP &amp; Validação</h3>
                         <p class="timeline-period">Q4 2025</p>
                         <ul class="timeline-description">
                             <li>Modelagem do banco de dados (PostgreSQL)</li>
@@ -348,7 +579,160 @@
             </div>
         </div>
     </section>
-    
+
+    <!-- NOVA SEÇÃO: NOTÍCIAS & ATUALIZAÇÕES -->
+    <section id="noticias" class="section">
+        <div class="content">
+            <h2>Notícias &amp; Atualizações</h2>
+            <p class="news-intro">
+                Aqui concentramos os principais marcos de produto da SertanAI. 
+                Atualizações de Monitoramento, Formulário, modelos de IA e integrações são registradas 
+                para que o time e parceiros acompanhem a evolução da plataforma.
+            </p>
+
+            <div class="news-grid">
+                <!-- NOTÍCIA PRINCIPAL -->
+                <article class="news-card">
+                    <span class="badge badge-new">Novo</span>
+                    <h3 class="news-title">NOVA ATUALIZAÇÃO NOS MÓDULOS DE MONITORAMENTO E FORMULÁRIO</h3>
+                    <p class="news-meta">Publicado em 24 nov. 2025 • Versão 0.4</p>
+                    <p class="news-summary">
+                        Atualizamos o fluxo de cadastro e monitoramento de talhões com 
+                        novas camadas de satélite (Sentinel-2 cloudless, Esri World Imagery, Google Satélite),
+                        upload/desenho de polígonos em WKT e refinamento do formulário de diagnóstico para
+                        decisões mais rápidas e auditáveis.
+                    </p>
+                    <div class="news-actions">
+                        <button class="news-btn" data-scroll-to="noticia-monitoramento">Ver detalhes</button>
+                        <button class="news-btn secondary" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'});">
+                            Falar com o CPO
+                        </button>
+                    </div>
+                </article>
+
+                <!-- SLOT PARA FUTURAS NOTÍCIAS -->
+                <article class="news-card">
+                    <span class="badge">Em breve</span>
+                    <h3 class="news-title">Módulo de IA Explicável para Recomendações de Manejo</h3>
+                    <p class="news-meta">Planejado para Q1 2026</p>
+                    <p class="news-summary">
+                        Estamos estruturando as bases de conhecimento e regras simbólicas que irão permitir
+                        recomendações explicadas passo a passo, com rastreabilidade de dados de campo, solo e clima.
+                    </p>
+                    <div class="news-actions">
+                        <button class="news-btn secondary" disabled>Detalhes em breve</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- “ABA” DE DETALHES DA NOTÍCIA PRINCIPAL -->
+            <div id="noticia-monitoramento" class="news-details">
+                <h3>SertanAI • Diagnóstico Inteligente — Atualização dos Módulos de Monitoramento e Formulário</h3>
+                <p class="news-highlight">
+                    Esta atualização consolida a SertanAI como um <strong>diagnosticador espacialmente consciente</strong>, 
+                    conectando o olhar do consultor no campo com séries temporais, mapas temáticos e histórico de talhões.
+                </p>
+
+                <div class="news-tabs">
+                    <button class="news-tab active" data-tab="resumo">Resumo Geral</button>
+                    <button class="news-tab" data-tab="formulario">Formulário de Diagnóstico</button>
+                    <button class="news-tab" data-tab="monitoramento">Módulo Monitoramento</button>
+                    <button class="news-tab" data-tab="roadmap">Próximos Passos</button>
+                </div>
+
+                <div class="news-tab-panels">
+                    <div class="news-tab-panel active" data-tab-panel="resumo">
+                        <p>
+                            A nova versão da plataforma SertanAI integra melhorias de <strong>UX</strong>,
+                            arquitetura de dados e visualização geoespacial, mantendo o foco na 
+                            realidade do consultor que precisa decidir em poucas horas o que fazer no talhão.
+                        </p>
+                        <ul>
+                            <li>Padronização do fluxo de cadastro de talhões (upload de shapefile ou desenho direto em mapa).</li>
+                            <li>Melhor separação entre <strong>Formulário de Diagnóstico</strong> e <strong>Monitoramento</strong>, mantendo consistência de dados.</li>
+                            <li>Ampliação do conjunto de base maps — com ênfase em produtividade visual para análise rápida.</li>
+                            <li>Preparação do back-end para ingestão de novas fontes de dados (NDVI, precipitação, pedologia, etc.).</li>
+                        </ul>
+                    </div>
+
+                    <div class="news-tab-panel" data-tab-panel="formulario">
+                        <p>
+                            O Formulário de Diagnóstico foi simplificado para capturar o essencial sem 
+                            perder profundidade técnica, reduzindo o atrito no momento em que o consultor está em campo.
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Identificação da área centralizada:</strong> campos para propriedade, talhão, 
+                                datas de plantio e observação em um bloco único, com foco em clareza.
+                            </li>
+                            <li>
+                                <strong>Nova lógica de Culturas/Cultivares:</strong> filtros dinâmicos para seleção de 
+                                cultura e cultivar, garantindo integridade de dados e reduzindo erro de digitação.
+                            </li>
+                            <li>
+                                <strong>Uploads técnicos opcionais:</strong> anexos de análise de solo, folha, metagenômica 
+                                e resistência à penetração diretamente no registro do diagnóstico.
+                            </li>
+                            <li>
+                                <strong>Hipótese do técnico &amp; decisão:</strong> bloco específico para intenção de manejo, 
+                                incertezas e grau de detalhamento esperado no laudo (técnico, direto, etc.).
+                            </li>
+                        </ul>
+                        <p>
+                            Essa estrutura prepara o terreno para que o laudo gerado pela IA da SertanAI 
+                            seja sempre ancorado em evidências objetivas e rastreáveis.
+                        </p>
+                    </div>
+
+                    <div class="news-tab-panel" data-tab-panel="monitoramento">
+                        <p>
+                            O módulo de Monitoramento recebeu melhorias visuais e funcionais 
+                            voltadas para a análise espacial contínua dos talhões.
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Mapa interativo aprimorado:</strong> suporte a múltiplos <em>base maps</em> 
+                                (Google Satélite, OpenStreetMap, Carto Voyager, Esri World Imagery).
+                            </li>
+                            <li>
+                                <strong>Sentinel-2 cloudless (EOX):</strong> integração de camadas anuais 2020–2024 
+                                para leitura rápida da dinâmica de vegetação e uso do solo.
+                            </li>
+                            <li>
+                                <strong>Desenho de talhão com Leaflet.draw:</strong> criação e edição de polígonos com 
+                                conversão automática para WKT, pronto para persistência em banco espacial.
+                            </li>
+                            <li>
+                                <strong>Validação de entrada:</strong> regra clara de obrigatoriedade — ou upload de shapefile 
+                                (.zip) ou desenho no mapa — evitando diagnósticos sem geometria.
+                            </li>
+                        </ul>
+                        <p>
+                            Todos esses elementos fortalecem o elo entre o que é observado em campo e aquilo que 
+                            foi efetivamente mapeado e monitorado ao longo do tempo.
+                        </p>
+                    </div>
+
+                    <div class="news-tab-panel" data-tab-panel="roadmap">
+                        <p>
+                            Com essa atualização, a base para as próximas camadas de inteligência da SertanAI está consolidada.
+                        </p>
+                        <ul>
+                            <li>Conectar o histórico de diagnósticos com séries temporais de NDVI e índices de estresse hídrico.</li>
+                            <li>Incorporar modelos explicáveis que traduzam “zonas críticas” em ações recomendadas.</li>
+                            <li>Construir dashboards de visão de safra por cliente, área e nível de risco.</li>
+                            <li>Expandir integrações com estações meteorológicas, redes de sensores e sistemas de terceiros.</li>
+                        </ul>
+                        <p>
+                            O objetivo é transformar o monitoramento em um sistema vivo de apoio à decisão, 
+                            reduzindo ruído e aumentando a confiança em cada recomendação emitida pela SertanAI.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contato" class="section">
         <div class="content">
             <h2>Vamos construir juntos.</h2>
@@ -365,7 +749,7 @@
     </footer>
 
     <script>
-        // O mesmo script de animação do pitch deck
+        // Animação de entrada das seções
         document.addEventListener('DOMContentLoaded', () => {
             const sections = document.querySelectorAll('.section');
             const observerOptions = {
@@ -373,15 +757,81 @@
                 rootMargin: '0px',
                 threshold: 0.2
             };
-            const observerCallback = (entries, observer) => {
+            const observerCallback = (entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        entry.target.querySelector('.content').classList.add('visible');
+                        const content = entry.target.querySelector('.content');
+                        if (content) content.classList.add('visible');
                     }
                 });
             };
             const observer = new IntersectionObserver(observerCallback, observerOptions);
             sections.forEach(section => observer.observe(section));
+        });
+
+        // Tabs da notícia principal
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.news-tab');
+            const panels = document.querySelectorAll('.news-tab-panel');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.getAttribute('data-tab');
+
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+
+                    panels.forEach(panel => {
+                        if (panel.getAttribute('data-tab-panel') === target) {
+                            panel.classList.add('active');
+                        } else {
+                            panel.classList.remove('active');
+                        }
+                    });
+                });
+            });
+        });
+
+        // Popup de notícia + scroll para detalhes
+        document.addEventListener('DOMContentLoaded', () => {
+            const modalBackdrop = document.getElementById('news-modal');
+            const modalClose = document.getElementById('news-modal-close');
+            const modalLater = document.getElementById('news-modal-later');
+            const scrollButtons = document.querySelectorAll('[data-scroll-to]');
+
+            // abre o popup depois de um pequeno delay
+            setTimeout(() => {
+                if (modalBackdrop) {
+                    modalBackdrop.classList.add('open');
+                }
+            }, 1200);
+
+            function closeModal() {
+                if (modalBackdrop) {
+                    modalBackdrop.classList.remove('open');
+                }
+            }
+
+            if (modalClose) modalClose.addEventListener('click', closeModal);
+            if (modalLater) modalLater.addEventListener('click', closeModal);
+
+            modalBackdrop.addEventListener('click', (e) => {
+                if (e.target === modalBackdrop) {
+                    closeModal();
+                }
+            });
+
+            scrollButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = btn.getAttribute('data-scroll-to');
+                    const targetEl = document.getElementById(targetId);
+                    if (targetEl) {
+                        closeModal();
+                        targetEl.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
         });
     </script>
 
