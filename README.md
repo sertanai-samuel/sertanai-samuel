@@ -28,9 +28,10 @@ Aqui está no que estou trabalhando ativamente:
 
 Este é o nosso "hub" central para recursos de produto e desenvolvimento:
 
-* 🔗 **Repositório do App Principal:** `[Link para o repositório do produto]`
-* 🔗 **Documentação/Wiki (Notion/Confluence):** `[Link para a documentação interna]`
-* 🔗 **Ambiente de Staging/Testes:** `[Link para o app em testes]`
+* 🔗 **Repositório do App Principal:** [Link para o repositório do produto](https://github.com/Sertan-AI/sertanai-app)
+* 🔗 **Documentação/Wiki (Notion/Confluence):** [Link para a documentação interna](https://www.notion.so/20914d0699a481189febea2cf797dca7?v=20914d0699a481efb463000c4106aa22)
+* 🔗 **Ambiente de Staging/Testes:** [Link para o app em testes](https://github.com/Sertan-AI/engine-lab)
+* 🔗 **Esquema do banco de monitoramneto:** [Link](https://github.com/Sertan-AI/tabelas-monitor)
 
 ---
 
