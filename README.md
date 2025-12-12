@@ -10,7 +10,29 @@ Como CPO e Cientista de Dados Espaciais, minha missão é traduzir nossa visão 
 
 Atuo na intersecção entre a ciência de dados e a experiência do usuário (UX), garantindo que nosso fluxo de dados — da coleta ao diagnóstico — seja robusto, auditável e gere valor real para nossos clientes no campo.
 
+## &nbsp;Gráfico de Atividades
+
+<a href="https://github.com/samuel-c-santos">
+  <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=samuel-c-santos&bg_color=ffffff&color=7b8e7f&line=7b8e7f&point=7b8e7f&area=true&hide_border=true" />
+</a>
+
 ---
+<div align="center">
+  <h1>
+         <span style="color:#d35400;">Portfólio de Samuel Santos</span><br>
+    <small><em>Ciência de Dados | Geoprocessamento | Business Intelligence | Python | R | SQL | Meio Ambiente | Sustentabilidade</em></small>
+  </h1>
+  <p>
+    Este repositório reúne meus projetos e estudos nas áreas de
+    <strong>ciência de dados, análise espacial, automação de processos e regularização ambiental</strong>.
+  </p>
+  <p>
+    Aqui você encontrará soluções que aplicam desde <strong>análise exploratória e inteligência de dados</strong> 
+    até <strong>geoprocessamento, dashboards, modelagem e uso de ferramentas de BI</strong>.
+  </p>
+</div>
+
+----
 
 ## &nbsp;Foco Atual (Roadmap)
 
