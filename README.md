@@ -12,7 +12,7 @@ Atuo na intersecção entre a ciência de dados e a experiência do usuário (UX
 
 ## &nbsp;Gráfico de Atividades
 
-<a href="https://github.com/samuel-c-santos">
+<a href="https://github.com/sertanai-samuel">
   <img alt="Samuel's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sertanai-samuel&bg_color=ffffff&color=7b8e7f&line=7b8e7f&point=7b8e7f&area=true&hide_border=true" />
 </a>
 
